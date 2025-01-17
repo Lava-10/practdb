@@ -114,3 +114,4 @@ cargo +nightly run --package client -- 8000
 
 This will connect to the `mkdb` server running on port `8000` and provide you with
 a shell where you can type SQL and see the results of the queries.
+"# practdb" 
