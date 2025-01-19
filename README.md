@@ -1,4 +1,4 @@
-# MKDB
+# PractDb
 
 Toy database implemented for learning purposes. Almost all of the implementation
 ideas come from these resources:
