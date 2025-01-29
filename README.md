@@ -101,7 +101,7 @@ cargo +nightly run -- file.db 8000
 ```
 
 `file.db` can be any empty file or a file previously
-managed by `mkdb`. It works like SQLite in that regard, the difference is that
+managed by `practDb`. It works like SQLite in that regard, the difference is that
 in order to use `mkdb` you have to connect to the server with some TCP client
 that implements the network protocol described at
 [`./src/tcp/proto.rs`](./src/tcp/proto.rs). The [`./client`](`./client`) package
@@ -112,6 +112,6 @@ used like this:
 cargo +nightly run --package client -- 8000
 ```
 
-This will connect to the `mkdb` server running on port `8000` and provide you with
+This will connect to the `practDb` server running on port `8000` and provide you with
 a shell where you can type SQL and see the results of the queries.
 "# practdb" 
