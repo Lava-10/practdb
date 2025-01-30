@@ -1,4 +1,4 @@
-//! Simple CLI client for MKDB.
+//! Simple CLI client for MKDB(practDb).
 //!
 //! See [`mkdb::tcp::proto`] for a detailed description of the network protocol.
 
